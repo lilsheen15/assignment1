@@ -6,4 +6,4 @@ var SampleSchema = new mongoose.Schema({
 {
     collection: 'death_causes_by_sex_collection'
 });
-mongoose.model('Sample', SampleSchema);
+mongoose.model('Graph', SampleSchema);
